@@ -39,7 +39,9 @@
 </script>
 
 <div>
-  <span class="px-2">Usados recentemente</span>
+  {#if $searchTerm.length === 0}
+    <span class="px-2">Usados recentemente</span>
+  {/if}
   <div class="grid grid-cols-10 text-2xl gap-2 items-center pt-2">
     {#each fil as e}
       <button
