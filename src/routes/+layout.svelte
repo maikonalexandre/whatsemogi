@@ -8,6 +8,18 @@
   import { page } from "$app/stores";
 </script>
 
+<svelte:head>
+  <title>Whatsemogi</title>
+  <meta
+    name="Emogis from whatsapp"
+    content="A library with open source emogis from whatsapp"
+  />
+  <!-- <meta
+    name="google-site-verification"
+    content="EOVyvjb1LaJ29mw3mxRQhL5wvI7HjeDxxB4-7vV6NvE"
+  /> -->
+</svelte:head>
+
 <div class="w-screen h-screen flex justify-center py-10 bg-container">
   <div
     class="bg-background max-w-3xl rounded-t-2xl rounded-bl-2xl rounded-br-lg text-neutral-400 flex flex-col"
