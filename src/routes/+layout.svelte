@@ -45,7 +45,7 @@
   <div class="absolute right-8 bottom-8">
     <a
       class="text-lg flex items-center gap-2 text-neutral-600 hover:text-sky-600"
-      href="/"
+      href="https://github.com/maikonalexandre/whatsemogi"
     >
       View repo <GithubLogo />
     </a>
