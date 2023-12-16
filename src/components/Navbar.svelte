@@ -24,55 +24,55 @@
       <a href="/"><Clock /></a>
     </li>
     <li
-      data-currentpage={$page.url.pathname === "/smileys&emotion"}
+      data-currentpage={$page.params.slug === "smileys&emotion"}
       class="data-[currentpage=true]:bg-slate-700 p-1 rounded-2xl hover:bg-slate-700 transition"
     >
       <a href="/smileys&emotion"><Smiley /></a>
     </li>
     <li
-      data-currentpage={$page.url.pathname === "/people&body"}
+      data-currentpage={$page.params.slug === "people&body"}
       class="data-[currentpage=true]:bg-slate-700 p-1 rounded-2xl hover:bg-slate-700 transition"
     >
       <a href="/people&body"><User /></a>
     </li>
     <li
-      data-currentpage={$page.url.pathname === "/animals&nature"}
+      data-currentpage={$page.params.slug === "animals&nature"}
       class="data-[currentpage=true]:bg-slate-700 p-1 rounded-2xl hover:bg-slate-700 transition"
     >
       <a href="/animals&nature"><Dog /></a>
     </li>
     <li
-      data-currentpage={$page.url.pathname === "/activities"}
+      data-currentpage={$page.params.slug === "activities"}
       class="data-[currentpage=true]:bg-slate-700 p-1 rounded-2xl hover:bg-slate-700 transition"
     >
       <a href="/activities"><SoccerBall /></a>
     </li>
     <li
-      data-currentpage={$page.url.pathname === "/food&drink"}
+      data-currentpage={$page.params.slug === "food&drink"}
       class="data-[currentpage=true]:bg-slate-700 p-1 rounded-2xl hover:bg-slate-700 transition"
     >
       <a href="/food&drink"><Coffee /></a>
     </li>
     <li
-      data-currentpage={$page.url.pathname === "/travel&places"}
+      data-currentpage={$page.params.slug === "travel&places"}
       class="data-[currentpage=true]:bg-slate-700 p-1 rounded-2xl hover:bg-slate-700 transition"
     >
       <a href="/travel&places"><Car /></a>
     </li>
     <li
-      data-currentpage={$page.url.pathname === "/objects"}
+      data-currentpage={$page.params.slug === "objects"}
       class="data-[currentpage=true]:bg-slate-700 p-1 rounded-2xl hover:bg-slate-700 transition"
     >
       <a href="/objects"><Lightbulb /></a>
     </li>
     <li
-      data-currentpage={$page.url.pathname === "/symbols"}
+      data-currentpage={$page.params.slug === "symbols"}
       class="data-[currentpage=true]:bg-slate-700 p-1 rounded-2xl hover:bg-slate-700 transition"
     >
       <a href="/symbols"><HashStraight /></a>
     </li>
     <li
-      data-currentpage={$page.url.pathname === "/flags"}
+      data-currentpage={$page.params.slug === "flags"}
       class="data-[currentpage=true]:bg-slate-700 p-1 rounded-2xl hover:bg-slate-700 transition"
     >
       <a href="/flags"><Flag /></a>
