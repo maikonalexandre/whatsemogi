@@ -2,15 +2,10 @@
   import "../app.css";
   import Navbar from "../components/Navbar.svelte";
   import Search from "../components/Search.svelte";
-
   import Transiction from "../components/Transiction.svelte";
-  import GithubLogo from "phosphor-svelte/lib/GithubLogo/GithubLogo.svelte";
-
+  import { GithubLogo } from "phosphor-svelte";
   import { Toaster } from "svelte-sonner";
-
   import { page } from "$app/stores";
-
-  let searchTerm;
 </script>
 
 <div class="w-screen h-screen flex justify-center py-10 bg-container">

@@ -1,9 +1,8 @@
 <script>
   import { searchTerm } from "../routes/store";
-
   export let placeholder = "Pesquisar emoji...";
 
-  import X from "phosphor-svelte/lib/X/X.svelte";
+  import { X } from "phosphor-svelte";
 
   const clearSearch = () => {
     searchTerm.set("");

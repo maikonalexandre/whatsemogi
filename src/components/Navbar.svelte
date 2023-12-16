@@ -1,14 +1,14 @@
 <script>
-  import Smiley from "phosphor-svelte/lib/Smiley/Smiley.svelte";
-  import SoccerBall from "phosphor-svelte/lib/SoccerBall/SoccerBall.svelte";
-  import Clock from "phosphor-svelte/lib/Clock/Clock.svelte";
-  import Dog from "phosphor-svelte/lib/Dog/Dog.svelte";
-  import Coffee from "phosphor-svelte/lib/Coffee/Coffee.svelte";
-  import Car from "phosphor-svelte/lib/Car/Car.svelte";
-  import Lightbulb from "phosphor-svelte/lib/Lightbulb/Lightbulb.svelte";
-  import HashStraight from "phosphor-svelte/lib/HashStraight/HashStraight.svelte";
-  import Flag from "phosphor-svelte/lib/Flag/Flag.svelte";
-  import User from "phosphor-svelte/lib/User/User.svelte";
+  import { Smiley } from "phosphor-svelte";
+  import { SoccerBall } from "phosphor-svelte";
+  import { Clock } from "phosphor-svelte";
+  import { Dog } from "phosphor-svelte";
+  import { Coffee } from "phosphor-svelte";
+  import { Car } from "phosphor-svelte";
+  import { Lightbulb } from "phosphor-svelte";
+  import { HashStraight } from "phosphor-svelte";
+  import { Flag } from "phosphor-svelte";
+  import { User } from "phosphor-svelte";
 
   import { page } from "$app/stores";
 </script>
