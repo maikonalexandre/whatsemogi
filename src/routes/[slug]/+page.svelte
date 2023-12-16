@@ -3,7 +3,7 @@
   import { copyToClipboard } from "../../utils/index";
   import { makeEmogi } from "../../utils/index";
   import { searchTerm } from "../store";
-  const key = $page.url.pathname.replace("/", "");
+  const key = $page.params.slug;
 
   export let data;
   export let fil = [];
